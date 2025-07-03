@@ -376,6 +376,7 @@ font-weight: 300;
   margin: 0 auto;
   padding-top:20px;
   padding-bottom: 20px;
+  
 }
 
 .rec-box-tittle{
@@ -454,6 +455,47 @@ font-weight: 300;
  }
 
 /* Subs End */
+
+.dev-footer {
+  background: #111;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  border-top: 1px solid #333;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dev-footer p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+
+.heart {
+  color: #ff4d4d;
+}
+
+.footer-links {
+  margin-top: 1rem;
+}
+
+.footer-links a {
+  color: #4da6ff;
+  text-decoration: none;  
+  margin: 0 10px;
+  font-size: 0.85rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
 
 .professional-footer {
   background: #ffffff;
@@ -626,6 +668,9 @@ footer{
 @media (max-width: 768px) {
   .footer-container {
     grid-template-columns: 1fr 1fr;
+  }
+  .reco{
+    overflow-x: scroll;
   }
   
   .newsletter-form {
