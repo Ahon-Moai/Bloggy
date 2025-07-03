@@ -53,4 +53,4 @@ This will typically open the application in your default web browser at http://l
 💡 Usage
 Bloggy is a frontend-only project. You can integrate it with a backend API (e.g., a headless CMS, a custom Node.js API, or a Firebase Firestore database) to fetch and display dynamic blog post content.
 
-
+🚀Live Demo : https://bloggy-rho-sandy.vercel.app/
